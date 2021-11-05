@@ -1,0 +1,611 @@
+#ir_a {
+    visibility: visible;
+    width: 62px;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+    list-style: none;
+   margin-left: 2%;
+    color: #ffffff;
+}
+
+
+#menu {
+    background-color: #7F027C;
+    padding-top: 3.5%;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.big {
+    visibility: hidden;
+    width: 0%;
+    height: 0%;
+}
+
+.topnav2 {
+    visibility: visible;
+    float: right;
+    
+}
+
+.tlf {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.idaz {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.dropbtn{
+    background-color: #7F027C;
+    border-style: none;
+    cursor: pointer;
+    color: #fff;
+}
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 145px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content2 li ul {
+    color: rgb(5, 4, 4);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content2 li:hover {
+    background-color: rgb(84, 25, 102);
+}
+
+#ir_a:hover .dropdown-content2 {
+    display: block;
+}
+
+#ir_a:hover .dropbtn {
+    background-color: #7F027C;
+    color: #fff;
+    border-style: none;
+}
+.show {display: block;}
+.bandera {
+    width: 20px;
+    height: 15px;
+}
+.sanlu{
+    height: 30px;
+    width: 20px;
+}
+.sanluis{
+height: 30px;
+width: 50px;
+}
+
+.arbol{
+    height: 400px;
+    width: 315px;
+}
+#textea{
+    margin-left: -25%;
+}
+
+section{
+    height: 600px;
+}
+#nombres{
+    border: solid;
+    border-color: #000000;
+    padding-left: 20%;
+    background-color: #ffffff;
+}
+body{
+    background-color: rgb(245, 225, 245);
+}
+aside{
+    width: 100%;
+}
+.modal{
+text-align: center;
+}
+/*-----------------------------MOVIL-ARRIBA---------------------------------------------------*/
+@media (min-width:400px) {
+    #ir_a {
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+    }
+    aside{
+        width: 26%;
+        position: absolute;
+        float: left;
+        margin-left: 75%;
+        margin-top: 7%;
+    }
+section{
+    background-color: rgb(245, 225, 245);
+}
+    .topnav2 {
+        visibility: hidden;
+    }
+
+    .big {
+        visibility: visible;
+        width: 100%;
+    }
+
+    #menu {
+        visibility: visible;
+        background-color: #7F027C;
+        padding-top: 1.5%;
+        height: 45px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    section {
+        width: 100%;
+        height: 930px;
+    }
+
+    .idaz {
+        margin-right: 15%;
+        float: left;
+
+    }
+
+    .tlf {
+        margin-left: 2%;
+        float: left;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin-right: 3%;
+        float: left;
+    }
+
+    a:hover {
+        color: black;
+    }
+
+    .topnav {
+        float: right;
+        margin-right: 2%;
+    }
+
+    .arbol {
+        margin-left: 8%;
+        width: 700px;
+    margin-top: 6%;
+        height: 800px;
+    }
+
+    ul {
+        position: relative;
+        float: left;
+        list-style: none;
+        width: 390px;
+        margin-top: 0%;
+        text-align: right;
+        margin-left: 5%;
+    }
+
+    .sanlu {
+      height: 70px;
+        width: 50px;
+        margin-top: 10px;
+        position: relative;
+        float: left;
+    }
+    .sanluis{
+height: 70px;
+width: 90px;
+position: relative;
+float: left;
+    }
+
+  
+    #textea{
+        margin-top: 40%;
+        margin-bottom: 20%;
+        height: 30px;
+    }
+    #btn_entrar{
+        height: 38px;
+        margin-right: 5%;
+}
+#nombres{
+    border: solid;
+    border-color: #000000;
+    color: #000000;
+    position: relative;
+    float: left;
+
+    padding-left: 5%;
+}
+    /*_____________________________________IDIOMAS DEBAJO______________________________________*/
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        list-style: none;
+        float: left;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #140303;
+        min-width: 145px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        top:17px;
+    }
+
+    .dropdown-content li {
+        color: rgb(5, 4, 4);
+        padding: 10px 13px;
+        text-decoration: none;
+        display: block;
+        height: 15px;
+    }
+
+    .dropdown-content li:hover {
+        background-color: rgb(118, 25, 146);
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+
+    .bandera {
+        margin-top: 0%;
+        width: 26px;
+        height: 19px;
+    }
+
+    .idiomas {
+        width: 120px;
+    }
+}
+
+/*--------------------------------------IDIOMAS ENCIMA----------------------------------*/
+/*__________________________________FOOTER_________________________________________*/
+img {
+    width: 25px;
+    height: 25px;
+    align-content: center;
+    margin: 0.5%;
+
+}
+
+footer {
+    background-color: #7F027C;
+    font-size: 15px;
+
+}
+
+
+
+#centro {
+  
+    margin: 1%;
+    padding: 0px;
+    color: #fff;
+    margin-left: 10%;
+}
+
+#aviso {
+    text-align: center;
+    margin: 1%;
+    padding: 0px;
+    font-size: 12px;
+    margin-left: 5%;
+    text-decoration: none;
+    color: #fff;
+    height: 35px;
+}
+
+.texto1 {
+    height: 40px;
+    padding-top: 2%;
+    text-align: center;
+}
+
+#grande {
+    height: 35px;
+}
+
+#fotos {
+    height: 35px;
+}
+
+#primera {
+    margin-left: 23%;
+}
+
+@media (min-width:400px) {
+    footer {
+        background-color: #992b8f;
+        font-size: 20px;
+
+    }
+    #aviso {
+        text-align: center;
+        padding: 0px;
+        font-size: 15px;
+        margin-left: 5%;
+        text-decoration: none;
+        color: #fff;
+        margin-top: 0px;
+        position: relative;
+        float: left;
+    }
+
+    img {
+        width: 20px;
+        height: 20px;
+        align-content: center;
+        margin: 1%;
+        position: relative;
+        float: left;
+        margin-top: 5px;
+    }
+
+    .texto1 {
+        position: relative;
+        float: left;
+        width: 35%;
+        background-color: #992b8f;
+        height: 35px;
+        padding-top: 0px;
+
+    }
+
+    #fotos {
+        position: relative;
+        float: left;
+        width: 30%;
+        background-color: #992b8f;
+        height: 35px;
+    }
+
+    #primera {
+        margin-left: 20%;
+    }
+}
+/*---------------ARRIBA-MENU---------------------------------------------------------------------------------------------*/
+
+
+/*------------------------Formularios aqui-abajo----------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+#entrar{
+    padding-top: 2%;
+margin-right: 6%;
+    margin-left: 88%;
+}
+#entrar a{
+    color: #fff;
+    background-color: #7F027C;
+}
+#form1 {
+    border-style: solid;
+    width: 90%;
+    height: 44%;
+    margin-left: 5%;
+}
+
+#boton {
+    background-color: #993B8F;
+    color: #fff;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20%;
+    width: 25%;
+    margin: 2%;
+    margin-left: 30%;
+    margin-top: 10%;
+    cursor: pointer;
+
+}
+#a_registrarse{
+    color: #000;
+    margin-top: 9.5%;
+}
+.mando {
+    width: 100%;
+    margin: 3%;
+    
+}
+.inputlogin {
+    width: 100%;
+
+}
+
+.modal {
+ 
+    top: 1;
+    bottom: 1;
+    right: 1;
+    left: 0;
+}
+
+@media (min-width: 400px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #btn_entrar{
+        background-color: #7F027C;
+    }
+#entrar a{
+
+    margin-top: 2%;
+    margin-right: 2%;
+    color: #fff;
+    background-color: #7F027C;
+    float: right;
+}
+    #form1 {
+        width: 50%;
+    }
+    #form1 a{
+        color: #000;
+        float: right;
+    }
+
+    p {
+        width: 90%;
+        margin-top: 8%;
+    }
+
+    .mando {
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    #tiburon {
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .inputlogin {
+        width: 40%;
+        margin-left: 31%;
+    }
+    #eusuario{
+        margin-left: 28%;
+    }
+    #contra {
+        margin-left: 23%;
+    }
+    #boton_deseo {
+        margin-left: 43%;
+       width: 70px;
+     
+      
+   }
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+#registro {
+    width: 90%;
+    border: 2px;
+    border-style: solid;
+    margin-left: 5%;
+    margin-top: 20%;
+}
+
+#enviar {
+    width: 45%;
+    margin-left: 35%;
+    background-color: #993b8f;
+    color: #fff;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 20%;
+    margin-top: 12%;
+    cursor: pointer;
+}
+
+.inputregistro {
+    width: 55%;
+}
+
+#nombre {
+    margin-left: 9%;
+}
+
+#correo {
+    margin-left: 16.5%;
+}
+
+
+
+#clase {
+    margin-left: 20%;
+    width: 40%;
+}
+
+.form2 {
+    margin-top: 7%;
+}
+
+@media (min-width: 400px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        align-content: center;
+    }
+
+    #registro {
+        border: 2px;
+        border-style: solid;
+        width: 50%;
+        height: 45%;
+        margin-top: 4%;
+    }
+
+    .form2 {
+        margin-left: 10%;
+        margin-top: 6%;
+        text-align: left;
+    }
+
+    .inputregistro {
+        width: 55%;
+    }
+
+    #nombre {
+        margin-left: 11%;
+    }
+
+    #correo {
+        margin-left: 14.75%;
+    }
+
+    #contraseña {
+        margin-left: 6%;
+    }
+
+    #clase {
+        margin-left: 15%;
+        width: 25%;
+    }
+
+    #enviar {
+        width: 30%;
+        margin-left: 25%;
+        background-color: #993b8f;
+        color: #fff;
+        border-style: solid;
+        border-color: #000;
+        border-radius: 20%;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+
+}
+
+
